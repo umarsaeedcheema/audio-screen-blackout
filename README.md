@@ -54,5 +54,3 @@ Buffer Size (samples) is calculated as:
 Buffer Size (samples) = 44,100 / 1024 ≈ 43.07
 
 This means that approximately every 43 milliseconds (or 0.043 seconds), the buffer will be filled with new audio data, and your program will process this data. If your program's processing speed cannot keep up with this rate, it can lead to issues like audio dropouts or degraded performance, but it doesn't necessarily cause a crash.
-
-If your program is unable to process the audio data fast enough, you may need to implement strategies like multithreading or optimizing your audio processing code to keep up with the incoming data. Additionally, you can monitor the buffer status and adjust your processing logic accordingly to handle the data in real-time. Crashes usually occur due to program errors or resource limitations, rather than just a full audio buffer.
