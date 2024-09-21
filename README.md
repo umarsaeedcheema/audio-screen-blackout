@@ -1,6 +1,9 @@
-# audio-screen-blackout
+# Audio Screen Blackout
 
+## What is it?
 Audio Screen Blackout is a productivity-focused tool designed for workplace environments. It monitors the audio levels of individuals during meetings or collaborative work sessions and blacks out the screen of anyone speaking too loudly. This encourages a more professional and focused atmosphere by helping to minimize distraction.
+
+## How it works?
 
 FORMAT = pyaudio.paInt16:
 
