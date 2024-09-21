@@ -1,5 +1,7 @@
 # audio-screen-blackout
 
+Audio Screen Blackout is a productivity-focused tool designed for workplace environments. It monitors the audio levels of individuals during meetings or collaborative work sessions and blacks out the screen of anyone speaking too loudly. This encourages a more professional and focused atmosphere by helping to minimize distraction.
+
 FORMAT = pyaudio.paInt16:
 
 FORMAT specifies the audio format or data type of the samples in the audio stream. In this case, it's set to pyaudio.paInt16, which indicates that each audio sample is represented as a 16-bit signed integer. This format is common for uncompressed PCM audio.
